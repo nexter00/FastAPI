@@ -9,7 +9,7 @@ class Msg(BaseModel):
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World. Welcome to FastAPI!"}
+    return {"message": "Nuestra futura aplicacion del Gato Cósmico"}
 
 
 @app.get("/path")
